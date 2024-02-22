@@ -56,4 +56,4 @@ while True:
             with open(f'{filename}', 'w') as f:
                 f.write('\n'.join(buffer))
         case 'quit'|'q': quit()
-        case _: print('cmd not recognized. please enter a valid cmd.')
+        case _: print('error: cmd not recognized. please enter a valid cmd.')
